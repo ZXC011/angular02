@@ -1,0 +1,13 @@
+#aside{
+    width: 200px;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    /* 位置为固定 */
+    position: absolute;
+    background-color: red;
+    /* 位置x轴向右平移100% */
+    transform: translate(100%,0);
+    /* 动画速度为1秒 */
+    transition: all 1s;
+}
